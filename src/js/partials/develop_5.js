@@ -16,7 +16,7 @@ function orderOpen(){
     });
 
     $(window).resize(function(){
-        if($(window).width()=>992){$('.menu-top').attr('style','');}
+        if($(window).width()>992){$('.menu-top').attr('style','');}
     });
 
 
