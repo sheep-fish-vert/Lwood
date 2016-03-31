@@ -6,6 +6,29 @@
 }
 @media screen and (max-width: 1366px){
 
+    /* footer */
+
+        .footer{
+
+            .show-notebook{display: block;}
+            .hide-notebook{display: none;}
+
+            .footer-wrap{flex-wrap:wrap;justify-content:space-around;}
+            .footer-left{margin-bottom: 15px;}
+            .footer-nav{
+                ul{display: flex;flex-wrap:wrap;justify-content:space-around;
+                    li{margin-bottom: 15px;}
+                }
+            }
+            .footer-right{width: 100%;display: flex;justify-content:space-around;align-items:center;text-align: center;flex-wrap:wrap;
+                p{padding: 0 5px;
+                    &:last-child{margin-bottom: 10px;}
+                }
+            }
+        }
+
+    /* /footer */
+
 }
 @media screen and (max-width: 1280px){
 
