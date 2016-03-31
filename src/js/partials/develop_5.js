@@ -8,6 +8,7 @@ function orderOpen(){
 }
     $(document).ready(function(){
             orderOpen();
+            headeButer($('.butter'),$('.menu-top'))
     });
 
     $(window).load(function(){
@@ -15,7 +16,7 @@ function orderOpen(){
     });
 
     $(window).resize(function(){
-
+        if($(window).width()=>992){$('.menu-top').attr('style','');}
     });
 
 

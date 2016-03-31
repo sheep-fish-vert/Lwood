@@ -1,12 +1,13 @@
 /*header*/
+    header{position: relative;z-index: 500;}
     .header-wrap{ height:83px; text-align: center;
         .logo{font: 700 34px/34px 'ProximaNova'; color: #414141; float:left;    padding-top: 26px;}
-        nav{position: relative; display: inline-block;     padding-top: 36px;}
+        nav{position: relative; display: inline-block;      padding-left: 117px;   padding-top: 36px;}
         ul{}
-        li{display: inline-block;
-            a{font: 600 16px/16px 'ProximaNova'; color: #262626;text-decoration: none; text-transform: uppercase;}
+        li{display: inline-block; margin-left: 34px;
+            a{font: 600 16px/16px 'ProximaNova'; color: #262626; text-decoration: none; text-transform: uppercase;}
             &:hover{
-                a{color: #ffb900; }
+                a{color: #ffb900;}
             }
         }
         .tel{float:right;     padding-top: 33px;
@@ -14,12 +15,12 @@
                 &:last-child{margin-left: 27px;}
             }
         }
-        .butter{width: 56px; height: 44px; background-color: #fff; box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.1);     padding-top: 12px; position: absolute; top: 0; left: 0; cursor: pointer; display: none;
-                &:before{content: ''; display: block; top: 13px;    left: 8px; width: 0; height: 0; position: absolute; opacity: 0; transition: opacity 500ms;
+        .butter{width: 56px; height: 44px; background-color: #fff; box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.1);     padding-top: 12px; position: absolute; top: 20px; right: -20px; cursor: pointer; display: none;
+                &:before{content: ''; display: block; top: 11px;    left: 19px; width: 0; height: 0; position: absolute; opacity: 0; transition: opacity 500ms;
                     border: 9px solid transparent;
-                    border-right: 9px solid #f0b900;
+                    border-bottom: 9px solid #f0b900;
                 }
-                p{display: block; height: 5px; border-radius: 1px; background-color: #f0b900; width: 20px;  opacity: 1;  margin: 0 auto 2px; transition: opacity 500ms;}
+                p{display: block; height: 5px; border-radius: 1px; background-color: #f0b900; width: 30px;  opacity: 1;  margin: 0 auto 2px; transition: opacity 500ms;}
                 &.active{
                      &:before{opacity: 1;}
                      p{opacity: 0;}
