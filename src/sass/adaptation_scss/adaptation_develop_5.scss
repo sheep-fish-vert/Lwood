@@ -44,6 +44,7 @@
     @media screen and (max-width: 1280px){
         .top-block{
             .top-block-wrap{
+                .column1{border-right: 0;}
                 .column2{display: none;}
             }
         }
@@ -84,3 +85,6 @@
         }
     }
 /*End top-block*/
+/*top-slider*/
+    .top-slider{    padding: 51px 0 100px;}
+/*END top-slider*/

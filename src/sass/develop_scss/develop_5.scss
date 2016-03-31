@@ -36,7 +36,7 @@
             .column1{max-width: 881px;border-right: 1px solid #fff;}
             .column2{max-width:440px;border-right: 1px solid #fff;}
             .column3{max-width:440px;}
-            .show-form{background-color: #ffcf50; width: 100%; font: 400 20px/20px 'ProximaNova'; text-transform: uppercase; text-align: center; height: 71px; color:#000; padding-top: 26px; cursor: pointer;
+            .show-form{background-color: #ffcf50; width: 100%; font: 400 20px/20px 'ProximaNova'; text-transform: uppercase; text-align: center; height: 71px; color:#000; padding-top: 26px; cursor: pointer; transition:all 300ms;
                 &:hover,
                 &.active{background-color: #ffb900;}
                 i{background-image: url(../images/busket.png); width: 18px;height: 18px; background-position: center; background-repeat: no-repeat; display: inline-block; vertical-align: top; margin-right: 5px;}
@@ -68,11 +68,32 @@
     }
 /*END top-block*/
 /*top slider*/
-    .top-slider{
+    .top-slider{    padding: 51px 0 158px;
         .top-slider-wrap{
-            .slider-top{}
-            .slide{}
-            .img{}
+            .mbox{ max-width: 1800px;padding: 0 20px;}
+            .title{margin-bottom: 50px;}
+            .slider-top{display: flex;width: 100%; justify-content:space-between;}
+            .slide{width: 100%;
+                &:hover{.img:before{opacity:1;}}
+            }
+            .img{position: relative; display: block; width: 100%; text-align: center;
+                &:before{background-image: url(../images/zoom.png);width: 35px;height: 35px; position: absolute; left:calc(50% - 17px); top:calc(50% - 17px); content: ''; display: block; opacity:0; transition:opacity 300ms;}
+                img{display: inline-block;}
+            }
+            .slick-dots{left:0; bottom: -66px;
+                li{
+                     button:before{color:#ffde86; opacity: 1;     font-size: 12px;}
+                     &.slick-active{ button:before{color:#ffb900;}}
+                }
+            }
+
         }
     }
+    .fancybox-nav{width: 63px;height: 63px;background-color: #484746; bottom:3px; right:-3px; top:auto;position: absolute;
+        span{width: 15px;height: 25px; background-image: url(../images/fancy-arrow.png); display: block; background-position: center;visibility: visible; left:calc(50% - 7px); top:36px; bottom: auto; right: auto;position: absolute;}
+        &:hover{background-color: #2a2928;}
+    }
+    .fancybox-prev{left: auto; right: 60px;span{transform:rotate(180deg);}}
+    .fancybox-overlay{background: transparent;}
+    .fancybox-inner{border:3px solid #ffb900;}
 /*END top slider*/
