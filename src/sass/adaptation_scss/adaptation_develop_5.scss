@@ -1,0 +1,51 @@
+/*top-block*/
+    @media screen and (max-width: 1600px){
+        .top-block{
+            .top-block-wrap{
+                .column3{display: none;}
+            }
+        }
+    }
+    @media screen and (max-width: 1240px){
+        .top-block{
+            .top-block-wrap{
+                .column2{display: none;}
+            }
+        }
+    }
+    @media screen and (max-width:992px){
+        .top-block{
+            .top-block-wrap{
+                h1{padding-top: 212px; max-width: 410px;
+                p{
+                    &:nth-child(1){font: 800 55px/40px 'ProximaNova'; }
+                    &:nth-child(2){font: 300 50px/50px 'ProximaNova';     letter-spacing: 7px;}
+                    &:nth-child(3){font: 700 40px/40px 'ProximaNova'; }
+                    &:nth-child(4){font: 700 25px/25px 'ProximaNova'; }
+                }
+            }
+            }
+        }
+    }
+     @media screen and (max-width:666px){
+        .top-block{
+            .top-block-wrap{
+                h1{padding-top:90px; }
+            }
+        }
+    }
+    @media screen and (max-width:480px){
+        .top-block{
+            .top-block-wrap{
+                h1{padding-top:60px; max-width: 410px;
+                p{
+                    &:nth-child(1){font: 800 40px/40px 'ProximaNova'; }
+                    &:nth-child(2){font: 300 40px/40px 'ProximaNova';     letter-spacing: 2px;}
+                    &:nth-child(3){font: 700 30px/30px 'ProximaNova'; }
+                    &:nth-child(4){font: 700 16px/16px 'ProximaNova'; padding-top: 5px;}
+                }
+            }
+            }
+        }
+    }
+/*End top-block*/
