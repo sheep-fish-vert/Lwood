@@ -1,0 +1,36 @@
+// title
+.title{position: relative;font-size: 36px; font-family: "ProximaNova", sans-serif; color: rgb(0, 0, 0) ; line-height: 1.2 ;text-align: center; padding-bottom: 10px;
+    &:after{content: ''; position: absolute; bottom: 0; height: 1px; left: calc(50% - 60px); right: calc(50% - 60px); background-color: #ffcf50;  }
+ 
+}
+
+.faq-wrap{ width: 100%; 
+    .conteiner{max-width: 1200px; margin: 0 auto; padding: 63px 20px 45px;} 
+    .after-block{ padding-top: 43px;
+        .headtext{font-size: 18px;font-family: "ProximaNova", sans-serif; color: rgb(0, 0, 0);  line-height: 1.2; text-align: center; padding-bottom: 25px;}
+        .accordion{ padding: 0 15px; width: 50%; float: left;
+            li{ text-align: center;  padding-bottom: 10px; cursor: pointer;
+                h5{font-size: 16px; font-family: "ProximaNova", sans-serif; color: rgb(0, 0, 0);  display: flex; justify-content: center; align-items: center; font-weight: 600; background-color: #cccccc;position: relative; transition: background-color 0.3s; padding: 10px 40px; min-height: 40px;
+                }
+                .ui-state-default{
+                    &:after{content: ''; position: absolute; width: 14px; height: 4px; left: 20px; top: calc(50% - 4px/2); background-color: rgb(0, 0, 0); }
+                    &:before{content: ''; position: absolute; width: 4px; height: 14px; left: 25px; top: calc(50% - 14px/2); background-color: rgb(0, 0, 0); transition: all 0.3s;  }
+                }
+                .ui-state-active{
+                    &:before{content: ''; position: absolute; width: 4px; height: 4px; left: 25px; top: calc(50% - 4px/2); background-color: rgb(0, 0, 0);}
+                }
+                p{ border-left: 1px solid #cccccc; border-right: 1px solid #cccccc; border-bottom: 1px solid #cccccc; padding: 30px 30px 25px; transition: border 0.3s; font-weight: 300; font-size: 16px; font-family: "ProximaNova", sans-serif; color: rgb(108, 108, 108);  line-height: 1.2;}
+                
+                &:hover{
+                    h5{background-color: #ffde86;}
+                    p{ border-left: 1px solid #ffde86; border-right: 1px solid #ffde86; border-bottom: 1px solid #ffde86; }
+                }
+            }
+        }
+    }   
+}
+
+
+
+
+
