@@ -48,7 +48,7 @@ function oneHeightItems2(){
                 height=$(this).height();
             }
         });
-        block.css('height', height);
+        block.css('height', height+20);
     }
 
     oneHeight($('.slider-item .single:nth-child(1)'));
