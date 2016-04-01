@@ -14,8 +14,10 @@
             .hide-notebook{display: none;}
 
             .footer-wrap{flex-wrap:wrap;justify-content:space-around;}
-            .footer-left{margin-bottom: 15px;}
-            .footer-nav{
+            .footer-left{margin-bottom: 15px;
+                .footer-logo{margin-top: 0px;margin-bottom: 15px;}
+            }
+            .footer-nav{margin-top: 0;
                 ul{display: flex;flex-wrap:wrap;justify-content:space-around;
                     li{margin-bottom: 15px;}
                 }
