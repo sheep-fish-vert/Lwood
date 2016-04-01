@@ -17,6 +17,9 @@ function fancyboxTop(){
   })
 }
     $(document).ready(function(){
+            $('a[href="#form-button"]').click(function() {
+             $('.show-form').click();
+            });
             orderOpen();
             headeButer($('.butter'),$('.menu-top'));
             fancyboxTop();
