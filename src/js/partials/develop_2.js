@@ -52,7 +52,7 @@ try{
                 }
             ]
         });        
-
+        
     });
 
     $(window).load(function(){
