@@ -38,6 +38,27 @@ function oneHeightItems(){
     oneHeight($('.oneHeight'));
 }
 
+function oneHeightItems2(){
+
+    function oneHeight(block){
+        var height=0;
+        block.removeAttr('style');
+        block.each(function(){
+            if($(this).height()>height){
+                height=$(this).height();
+            }
+        });
+        block.css('height', height+20);
+    }
+
+    oneHeight($('.slider-item .single:nth-child(1)'));
+    oneHeight($('.slider-item .single:nth-child(2)'));
+    oneHeight($('.slider-item .single:nth-child(3)'));
+    oneHeight($('.slider-item .single:nth-child(4)'));      
+}
+
+
+
 /*scroll animation*/
 function animationBlock(item){
 
@@ -121,6 +142,7 @@ function headeButer(menuMobile,toggleMenu){
 /* DOCUMENT READY  */
 $(document).ready(function() {
     //oneHeightItems();
+    oneHeightItems2();
     $('.footer_placeholder').height($('.footer').outerHeight());
 
     //goTo();

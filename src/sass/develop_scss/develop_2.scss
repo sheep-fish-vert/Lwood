@@ -33,10 +33,10 @@
 // slider
 .slider-wrap{ width: 100%; background-image: url(../images/slider-bg.jpg);
     .conteiner{max-width: 1400px; margin: 0 auto; padding-top: 63px;
-        .content-slider{ padding-top: 32px; padding-bottom: 150px;
+        .content-slider{ padding-top: 32px; padding-bottom: 60px;
             .convert-slid{
                 .slider-item{padding: 0 6px;
-                    .single{border: 2px solid transparent; width: 220px; text-align: center; display: block; text-decoration: none; margin-bottom: 50px; padding: 10px 10px 5px 10px; cursor: pointer; transtion: all 0.5s;  margin: 0 auto;
+                    .single{border: 2px solid transparent; width: 220px; text-align: center; display: block; text-decoration: none; margin-bottom: 50px; padding: 10px 10px 5px 10px; cursor: pointer; transtion: all 0.5s;  margin: 0 auto 50px; min-height: 225px;
                         &:hover{border: 2px solid #ffffff;}
                         .convert-img{margin-bottom: 38px; width: 100%;
                             img{display: block; margin: 0 auto;}
@@ -52,7 +52,7 @@
     }
 }
 
-.slick-dots {
+.slick-dots { bottom: 0;
     li { margin: 0;
         button { width: 10px; height: 10px; border-radius: 50%; background-color: #ffde86; transition: all 0.3s;
         &:before { display: none; }
