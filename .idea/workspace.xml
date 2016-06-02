@@ -2,49 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f965bf5-d2e0-4965-b9a5-d2d1767e6814" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/about-panel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/color-panel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/description-panel.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/adaptation_scss/adaptation_develop_1.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/adaptation_scss/adaptation_develop_2.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/adaptation_scss/adaptation_develop_3.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/adaptation_scss/adaptation_develop_4.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/adaptation_scss/adaptation_develop_5.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/adaptation_scss/adaptation_main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/develop_scss/develop_1.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/develop_scss/develop_2.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/develop_scss/develop_5.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/develop_scss/style_main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/fonts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/plagins_scss/jquery.fancybox.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/plagins_scss/jquery.formstyler.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/plagins_scss/slick-theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/plagins_scss/slick.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/reset.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/style_basic.scss" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sass/develop_scss/develop_3.scss" afterPath="$PROJECT_DIR$/src/sass/old-base.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sass/develop_scss/develop_4.scss" afterPath="$PROJECT_DIR$/src/sass/new.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sass/variables.scss" afterPath="$PROJECT_DIR$/OSX.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/5r-1.png" afterPath="$PROJECT_DIR$/src/images/5r-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/5r-2.png" afterPath="$PROJECT_DIR$/src/images/5r-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/contactBG.jpg" afterPath="$PROJECT_DIR$/src/images/contactBG.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/h1.jpg" afterPath="$PROJECT_DIR$/src/images/h1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/h2-1.jpg" afterPath="$PROJECT_DIR$/src/images/h2-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/h2-2.jpg" afterPath="$PROJECT_DIR$/src/images/h2-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/h3-1.jpg" afterPath="$PROJECT_DIR$/src/images/h3-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/h3-2.jpg" afterPath="$PROJECT_DIR$/src/images/h3-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/partials/basic_scripts.js" afterPath="$PROJECT_DIR$/src/js/partials/basic_scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/partials/develop_2.js" afterPath="$PROJECT_DIR$/src/js/partials/develop_2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/partials/develop_5.js" afterPath="$PROJECT_DIR$/src/js/partials/develop_5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/partials/5reason.html" afterPath="$PROJECT_DIR$/src/partials/5reason.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/partials/bot-slider.html" afterPath="$PROJECT_DIR$/src/partials/bot-slider.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/partials/footer.html" afterPath="$PROJECT_DIR$/src/partials/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/partials/header.html" afterPath="$PROJECT_DIR$/src/partials/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/partials/how-it-work.html" afterPath="$PROJECT_DIR$/src/partials/how-it-work.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/partials/top-slider.html" afterPath="$PROJECT_DIR$/src/partials/top-slider.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/style.scss" afterPath="$PROJECT_DIR$/src/sass/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/partials/about-panel.html" afterPath="$PROJECT_DIR$/src/partials/about-panel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/partials/color-panel.html" afterPath="$PROJECT_DIR$/src/partials/color-panel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/new.scss" afterPath="$PROJECT_DIR$/src/sass/new.scss" />
     </list>
     <ignored path="Lwood.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,8 +30,8 @@
       <file leaf-file-name="new.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sass/new.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            <state relative-caret-position="567">
+              <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -79,8 +40,8 @@
       <file leaf-file-name="about-panel.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/partials/about-panel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            <state relative-caret-position="819">
+              <caret line="61" column="90" selection-start-line="61" selection-start-column="90" selection-end-line="61" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -99,10 +60,10 @@
       <file leaf-file-name="basic_scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/partials/basic_scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1036">
-              <caret line="149" column="4" selection-start-line="149" selection-start-column="4" selection-end-line="149" selection-end-column="4" />
+            <state relative-caret-position="481">
+              <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
               <folding>
-                <marker date="1464872177000" expanded="true" signature="494:530" placeholder="..." />
+                <marker date="1464874664000" expanded="true" signature="494:530" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -129,7 +90,6 @@
         <option value="$PROJECT_DIR$/src/js/partials/develop_2.js" />
         <option value="$PROJECT_DIR$/src/partials/bot-slider.html" />
         <option value="$PROJECT_DIR$/src/partials/top-slider.html" />
-        <option value="$PROJECT_DIR$/src/partials/color-panel.html" />
         <option value="$PROJECT_DIR$/src/js/partials/develop_5.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/partials/description-panel.html" />
@@ -138,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/partials/footer.html" />
         <option value="$PROJECT_DIR$/src/partials/header.html" />
         <option value="$PROJECT_DIR$/src/js/partials/basic_scripts.js" />
+        <option value="$PROJECT_DIR$/src/partials/color-panel.html" />
         <option value="$PROJECT_DIR$/src/partials/about-panel.html" />
         <option value="$PROJECT_DIR$/src/sass/new.scss" />
       </list>
@@ -341,12 +302,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1464787260155</updated>
-      <workItem from="1464787262094" duration="20618000" />
+      <workItem from="1464787262094" duration="22212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20618000" />
+    <option name="totallyTimeSpent" value="22212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="25" width="2560" height="1336" extended-state="0" />
@@ -485,14 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/color-panel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1402">
-          <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -559,26 +512,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/partials/basic_scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1036">
-          <caret line="149" column="4" selection-start-line="149" selection-start-column="4" selection-end-line="149" selection-end-column="4" />
+        <state relative-caret-position="481">
+          <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
           <folding>
-            <marker date="1464872177000" expanded="true" signature="494:530" placeholder="..." />
+            <marker date="1464874664000" expanded="true" signature="494:530" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/color-panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="45" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/partials/about-panel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="819">
+          <caret line="61" column="90" selection-start-line="61" selection-start-column="90" selection-end-line="61" selection-end-column="90" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/new.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="567">
+          <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
           <folding />
         </state>
       </provider>

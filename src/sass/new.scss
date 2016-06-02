@@ -1,9 +1,7 @@
 /*about-panel*/
     .about-panel{    padding: 52px 0 0;
         .mbox{padding: 0 15px;}
-        .img{  max-width: 440px; float: left; background-color: #e8e8e8;    padding: 76px 35px; margin-right: 50px; margin-bottom: 40px; overflow: hidden;
-            .mobile{ display: none;margin: 0 auto;}
-        }
+        .img{  max-width: 440px; float: left; background-color: #e8e8e8;    padding: 76px 35px; margin-right: 50px; margin-bottom: 40px; overflow: hidden;}
         .txt{font:300 16px/1.2 'ProximaNova'; color: rgb(90, 90, 90); padding-top: 47px;     max-width: 1477px;
             p{margin: 1.25em 0;}
         }
@@ -11,10 +9,12 @@
             .title{ margin-bottom: 20px;}
         }
         @media screen and (max-width: 768px) {
-            .img{ width: 100%; max-width: none; float:none; text-align: center; margin-bottom: 0;
-                .mobile{ display: block;}
-            }
+            .img{ width: 100%; max-width: none; float:none; text-align: center; margin-bottom: 0;padding: 76px 0;}
             .txt{ padding-top: 0;}
+        }
+        @media screen and (max-width:400px) {
+            .img{ padding: 0;}
+
         }
     }
 
@@ -88,7 +88,12 @@
 /*animation*/
     .animate-picture{ width: 364px; height: 312px; position: relative; display: block; margin: 0 auto;
         .coin{ position: absolute; top: 400px; left: 179px;  opacity:0;   transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); transition: all 300ms;}
-        .animated.coin{ position: absolute; top: 400px; left: 179px; opacity:1;   transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);}
+        .lleft1 .coin{top: 180px; left: 450px; }
+        .rright1 .coin{top: 180px; left: -100px; }
+        .lleft2 .coin{top: 280px; left: 450px; }
+        .rright2 .coin{top: 280px; left: -100px; }
+        .animated.coin,
+        .animated .coin{ position: absolute; top: 400px; left: 179px; opacity:1;   transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);}
 
              .animated.num1{ top: 0; left: 0;}
              .animated.num2{ top: 0; left:21px;}
@@ -116,46 +121,45 @@
             .animated.num22{ top: 72px; left:233px;}
             .animated.num23{ top: 68px; left:285px;}
             .animated.num24{ top: 74px; left:338px;}
+        .animated {
+            .num25 { top: 125px; left: 0; }
+            .num26 { top: 125px; left: 21px; }
+            .num27 { top: 125px; left: 74px; }
+            .num28 { top: 125px; left: 127px; }
+            .num29 { top: 125px; left: 179px; }
+            .num30 { top: 125px; left: 233px; }
+            .num31 { top: 123px; left: 284px; }
+            .num32 { top: 127px; left: 338px; }
 
-            .animated.num25{ top: 125px; left: 0;}
-            .animated.num26{ top: 125px; left:21px;}
-            .animated.num27{ top: 125px; left:74px;}
-            .animated.num28{ top: 125px; left:127px;}
-            .animated.num29{ top: 125px; left:179px;}
-            .animated.num30{ top: 125px; left:233px;}
-            .animated.num31{ top: 123px; left:284px;}
-            .animated.num32{ top: 127px; left:338px;}
+            .num33 { top: 179px; left: 0; }
+            .num34 { top: 179px; left: 21px; }
+            .num35 { top: 179px; left: 73px; }
+            .num36 { top: 179px; left: 127px; }
+            .num37 { top: 179px; left: 179px; }
+            .num38 { top: 179px; left: 233px; }
+            .num39 { top: 177px; left: 285px; }
+            .num40 { top: 181px; left: 338px; }
 
-            .animated.num33{ top: 179px; left: 0;}
-            .animated.num34{ top: 179px; left:21px;}
-            .animated.num35{ top: 179px; left:73px;}
-            .animated.num36{ top: 179px; left:127px;}
-            .animated.num37{ top: 179px; left:179px;}
-            .animated.num38{ top: 179px; left:233px;}
-            .animated.num39{ top: 177px; left:285px;}
-            .animated.num40{ top: 181px; left:338px;}
+            .num41 { top: 231px; left: 0; }
+            .num42 { top: 233px; left: 21px; }
+            .num43 { top: 232px; left: 73px; }
+            .num44 { top: 232px; left: 127px; }
+            .num45 { top: 232px; left: 179px; }
+            .num46 { top: 232px; left: 233px; }
+            .num47 { top: 232px; left: 284px; }
+            .num48 { top: 236px; left: 338px; }
 
-            .animated.num41{ top: 231px; left: 0;}
-            .animated.num42{ top: 233px; left:21px;}
-            .animated.num43{ top: 232px; left:73px;}
-            .animated.num44{ top: 232px; left:127px;}
-            .animated.num45{ top: 232px; left:179px;}
-            .animated.num46{ top: 232px; left:233px;}
-            .animated.num47{ top: 232px; left:284px;}
-            .animated.num48{ top: 236px; left:338px;}
-
-            .animated.num49{ top: 285px; left: 0;}
-            .animated.num50{ top: 286px; left:21px;}
-            .animated.num51{ top: 286px; left:73px;}
-            .animated.num52{ top: 286px; left:127px;}
-            .animated.num53{ top: 286px; left:179px;}
-            .animated.num54{ top: 285px; left:233px;}
-            .animated.num55{ top: 285px; left:285px;}
-            .animated.num56{ top: 287px; left:338px;}
-
+            .num49 { top: 285px; left: 0; }
+            .num50 { top: 286px; left: 21px; }
+            .num51 { top: 286px; left: 73px; }
+            .num52 { top: 286px; left: 127px; }
+            .num53 { top: 286px; left: 179px; }
+            .num54 { top: 285px; left: 233px; }
+            .num55 { top: 285px; left: 285px; }
+            .num56 { top: 287px; left: 338px; }
+        }
 
     }
-@media screen and (max-width: 768px) {
-    .animate-picture{ display: none;}
-}
+
+
 /*END animation*/
