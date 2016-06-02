@@ -1,0 +1,161 @@
+/*about-panel*/
+    .about-panel{    padding: 52px 0 0;
+        .mbox{padding: 0 15px;}
+        .img{  max-width: 440px; float: left; background-color: #e8e8e8;    padding: 76px 35px; margin-right: 50px; margin-bottom: 40px; overflow: hidden;
+            .mobile{ display: none;margin: 0 auto;}
+        }
+        .txt{font:300 16px/1.2 'ProximaNova'; color: rgb(90, 90, 90); padding-top: 47px;     max-width: 1477px;
+            p{margin: 1.25em 0;}
+        }
+        @media screen and (max-width: 1200px) {
+            .title{ margin-bottom: 20px;}
+        }
+        @media screen and (max-width: 768px) {
+            .img{ width: 100%; max-width: none; float:none; text-align: center; margin-bottom: 0;
+                .mobile{ display: block;}
+            }
+            .txt{ padding-top: 0;}
+        }
+    }
+
+/*END about-panel*/
+/*color-panel*/
+    .color-panel{    padding-top: 51px;
+        .mbox{padding: 0 15px;}
+        .block{ position: relative; overflow: hidden;
+            .img{ position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index:5;
+                img{ width: 100%; max-width: none;}
+            }
+            .block-title{ text-align: center; position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index:10;color: rgb(254, 254, 254); font: 600 18px/1.2 'ProximaNova';
+                span { position: absolute; left: 0; width: 100%; top: 50%; transform: translateY(-50%);
+                    &.black { color: #545454; }
+                }
+            }
+            &.little-item{ width: 200px; height: 200px; display: inline-block;    margin-bottom: 7px; margin-right: 7px; cursor: pointer;
+                &.active {
+                    .block-title { border: 5px solid #ffcf50; }
+                }
+            }
+            &.big{ width: 620px; height: 620px; float: left;    margin-right: 13px;}
+        }
+        .title{margin-bottom: 60px;}
+        .little{ display: block;}
+        .content{ width: 1474px; display: block; margin: 0 auto;}
+
+        @media screen and (max-width: 1510px) {
+            .content{ width: 1265px;}
+        }
+        @media screen and (max-width: 1300px) {
+            .content{ width: 1055px;}
+        }
+        @media screen and (max-width: 1090px) {
+            .content{ width: 845px;}
+        }
+        @media screen and (max-width: 900px) {
+            .block{
+                &.big{ width: 100%; height: 300px;  margin-right: 0; margin-bottom:15px; float: none;}
+                &.little-item{ margin: 0 0 15px;}
+            }
+            .little{ display: flex; justify-content:space-between;flex-wrap: wrap;}
+            .content{ width: auto;}
+        }
+        @media screen and (max-width: 639px) {
+            .little{  justify-content:space-around;}
+        }
+
+
+    }
+/*END color-panel*/
+/*description-panel*/
+    .description-panel{    padding-top: 67px; padding-bottom: 80px;
+        .mbox{padding: 0 15px; max-width: 1490px;}
+        .title{margin-bottom: 9px;}
+        .download{ width: 100%; text-align: right;
+            a{color: #444; font:400 16px/1.2 'ProximaNova'; vertical-align: top; text-decoration: none; position: relative;margin-right: 51px;
+                &:after{ display: block; content: ''; background-image: url(../images/pdf.png); background-position: center; background-repeat: no-repeat; width: 30px; height: 39px; position: absolute; right: -50px; top: -9px;}
+                &:hover{ text-decoration: underline;}
+            }
+        }
+        .imgs-wrap{ display: flex; justify-content: space-between;     padding-top: 30px;
+            .img{border: 2px solid #ffcf50; width: 50%; width: 710px;    padding: 28px; margin-bottom: 20px;}
+        }
+        @media screen and (max-width: 639px) {
+            .title{margin-bottom: 29px;}
+            .imgs-wrap{flex-wrap: wrap;}
+        }
+    }
+/*END description-panel*/
+/*animation*/
+    .animate-picture{ width: 364px; height: 312px; position: relative; display: block; margin: 0 auto;
+        .coin{ position: absolute; top: 400px; left: 179px;  opacity:0;   transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); transition: all 300ms;}
+        .animated.coin{ position: absolute; top: 400px; left: 179px; opacity:1;   transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);}
+
+             .animated.num1{ top: 0; left: 0;}
+             .animated.num2{ top: 0; left:21px;}
+             .animated.num3{ top: 0; left:73px;}
+             .animated.num4{ top: 0; left:127px;}
+             .animated.num5{ top: 0; left:180px;}
+             .animated.num6{ top: 0; left:234px;}
+             .animated.num7{ top: 0; left:286px;}
+             .animated.num8{ top: 0; left:338px;}
+
+             .animated.num9{ top: 19px; left: 0;}
+            .animated.num10{ top: 17px; left:21px;}
+            .animated.num11{ top: 17px; left:73px;}
+            .animated.num12{ top: 17px; left:127px;}
+            .animated.num13{ top: 18px; left:179px;}
+            .animated.num14{ top: 18px; left:233px;}
+            .animated.num15{ top: 17px; left:285px;}
+            .animated.num16{ top: 18px; left:338px;}
+
+            .animated.num17{ top: 72px; left: 0;}
+            .animated.num18{ top: 72px; left:21px;}
+            .animated.num19{ top: 70px; left:73px;}
+            .animated.num20{ top: 72px; left:127px;}
+            .animated.num21{ top: 72px; left:179px;}
+            .animated.num22{ top: 72px; left:233px;}
+            .animated.num23{ top: 68px; left:285px;}
+            .animated.num24{ top: 74px; left:338px;}
+
+            .animated.num25{ top: 125px; left: 0;}
+            .animated.num26{ top: 125px; left:21px;}
+            .animated.num27{ top: 125px; left:74px;}
+            .animated.num28{ top: 125px; left:127px;}
+            .animated.num29{ top: 125px; left:179px;}
+            .animated.num30{ top: 125px; left:233px;}
+            .animated.num31{ top: 123px; left:284px;}
+            .animated.num32{ top: 127px; left:338px;}
+
+            .animated.num33{ top: 179px; left: 0;}
+            .animated.num34{ top: 179px; left:21px;}
+            .animated.num35{ top: 179px; left:73px;}
+            .animated.num36{ top: 179px; left:127px;}
+            .animated.num37{ top: 179px; left:179px;}
+            .animated.num38{ top: 179px; left:233px;}
+            .animated.num39{ top: 177px; left:285px;}
+            .animated.num40{ top: 181px; left:338px;}
+
+            .animated.num41{ top: 231px; left: 0;}
+            .animated.num42{ top: 233px; left:21px;}
+            .animated.num43{ top: 232px; left:73px;}
+            .animated.num44{ top: 232px; left:127px;}
+            .animated.num45{ top: 232px; left:179px;}
+            .animated.num46{ top: 232px; left:233px;}
+            .animated.num47{ top: 232px; left:284px;}
+            .animated.num48{ top: 236px; left:338px;}
+
+            .animated.num49{ top: 285px; left: 0;}
+            .animated.num50{ top: 286px; left:21px;}
+            .animated.num51{ top: 286px; left:73px;}
+            .animated.num52{ top: 286px; left:127px;}
+            .animated.num53{ top: 286px; left:179px;}
+            .animated.num54{ top: 285px; left:233px;}
+            .animated.num55{ top: 285px; left:285px;}
+            .animated.num56{ top: 287px; left:338px;}
+
+
+    }
+@media screen and (max-width: 768px) {
+    .animate-picture{ display: none;}
+}
+/*END animation*/

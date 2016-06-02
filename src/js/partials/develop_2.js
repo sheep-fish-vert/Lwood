@@ -3,12 +3,14 @@ try{
     $(document).ready(function() {
         $(".accordion1").accordion({
             heightStyle: "content",
-            collapsible: true
+            collapsible: true,
+            active:false
         });
 
         $(".accordion2").accordion({
             heightStyle: "content",
-            collapsible: true
+            collapsible: true,
+            active:false
         });
 
         $('.convert-slid').slick({
@@ -18,6 +20,7 @@ try{
             arrows: false,
             slidesToShow: 6,
             slidesToScroll: 1,
+            swipeToSlide:true,
             //variableWidth: true,
             responsive: [
                 {

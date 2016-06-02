@@ -93,11 +93,12 @@ function animationBlock(item){
 
 /*GO TO href*/
 function goTo(){
-    $('.header-menu a').click(function(e){
-        e.preventDefault();
+    $('.super-nav a').click(function(){
+
         var href = $(this).attr('href');
         var target = $(href).offset().top-65;
         $(scroller).animate({scrollTop:target},500);
+        return false;
     });
 }
 
@@ -145,8 +146,8 @@ $(document).ready(function() {
     oneHeightItems2();
     $('.footer_placeholder').height($('.footer').outerHeight());
 
-    //goTo();
-    //animationBlock($('.setion-animate'));
+    goTo();
+    animationBlock($('.animate-section'));
 });
 
 $(window).resize(function() {
