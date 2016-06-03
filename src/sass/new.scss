@@ -87,7 +87,10 @@
 /*END description-panel*/
 /*animation*/
     .animate-picture{ width: 364px; height: 312px; position: relative; display: block; margin: 0 auto;
-        .coin{ position: absolute; top: 400px; left: 179px;  opacity:0;   transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); transition: all 300ms;}
+        .bgbox{ background-color: #000; position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none; z-index:0;
+            &.animated{ display: block;}
+        }
+        .coin{ position: absolute; top: 400px; left: 179px;  opacity:0;   transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); transition: all 300ms;z-index: 5;}
         .lleft1 .coin{top: 180px; left: 450px; }
         .rright1 .coin{top: 180px; left: -100px; }
         .lleft2 .coin{top: 280px; left: 450px; }
