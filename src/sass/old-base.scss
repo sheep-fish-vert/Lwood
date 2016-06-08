@@ -1200,7 +1200,7 @@ header {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 4.95px 0.05px rgba(0, 0, 0, 0.35);
     text-align: center; }
-.top-slider .top-slider-wrap .img-wrap{position: relative;}
+.top-slider .top-slider-wrap .img-wrap{position: relative; height: 226px;}
 .top-slider .top-slider-wrap .img-wrap:after {
     top: 0;left: 0; position: absolute; background-color: rgba(0, 0, 0, 0.35); width:100%; height:100%; opacity:0; -webkit-transition: opacity 300ms;
     -moz-transition: opacity 300ms;
@@ -1231,8 +1231,7 @@ header {
 .top-slider .top-slider-wrap .img img {
     position: relative;
     z-index: 5;
-    width: 100%;
-    height: auto;
+    height: 100%;
     display: inline-block; }
 .top-slider .top-slider-wrap .img .title_items {
     position: relative;

@@ -36,7 +36,7 @@
                     .block-title { border: 5px solid #ffcf50; }
                 }
             }
-            &.big{ width: 620px; height: 620px; float: left;    margin-right: 13px;}
+            &.big{ width: 409px; height: 409px; float: left;    margin-right: 13px;}
         }
         .title{margin-bottom: 60px;}
         .little{ display: block;}
@@ -76,8 +76,9 @@
                 &:hover{ text-decoration: underline;}
             }
         }
-        .imgs-wrap{ display: flex; justify-content: space-between;     padding-top: 30px;
-            .img{border: 2px solid #ffcf50; width: 50%; width: 710px;    padding: 28px; margin-bottom: 20px;}
+        .imgs-wrap{    padding-top: 30px;
+            .img{border: 2px solid #ffcf50; width: 50%; width: 710px;    padding: 28px; margin-bottom: 20px; margin: 0 5px;}
+            .slick-dots{ bottom: -50px;}
         }
         @media screen and (max-width: 639px) {
             .title{margin-bottom: 29px;}
@@ -96,7 +97,7 @@
         .lleft2 .coin{top: 280px; left: 450px; }
         .rright2 .coin{top: 280px; left: -100px; }
         .animated.coin,
-        .animated .coin{ position: absolute; top: 400px; left: 179px; opacity:1;   transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);}
+        .animated .coin{ position: absolute; opacity:1;   transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);}
 
              .animated.num1{ top: 0; left: 0;}
              .animated.num2{ top: 0; left:21px;}
@@ -105,7 +106,7 @@
              .animated.num5{ top: 0; left:180px;}
              .animated.num6{ top: 0; left:234px;}
              .animated.num7{ top: 0; left:286px;}
-             .animated.num8{ top: 0; left:338px;}
+             .animated.num8{ top: 0; right: 0; left: auto;}
 
              .animated.num9{ top: 19px; left: 0;}
             .animated.num10{ top: 17px; left:21px;}
@@ -114,7 +115,7 @@
             .animated.num13{ top: 18px; left:179px;}
             .animated.num14{ top: 18px; left:233px;}
             .animated.num15{ top: 17px; left:285px;}
-            .animated.num16{ top: 18px; left:338px;}
+            .animated.num16{ top: 18px; right: 0;left: auto;}
 
             .animated.num17{ top: 72px; left: 0;}
             .animated.num18{ top: 72px; left:21px;}
@@ -123,7 +124,7 @@
             .animated.num21{ top: 72px; left:179px;}
             .animated.num22{ top: 72px; left:233px;}
             .animated.num23{ top: 68px; left:285px;}
-            .animated.num24{ top: 74px; left:338px;}
+            .animated.num24{ top: 74px; right: 0;left: auto;}
         .animated {
             .num25 { top: 125px; left: 0; }
             .num26 { top: 125px; left: 21px; }
@@ -132,7 +133,7 @@
             .num29 { top: 125px; left: 179px; }
             .num30 { top: 125px; left: 233px; }
             .num31 { top: 123px; left: 284px; }
-            .num32 { top: 127px; left: 338px; }
+            .num32 { top: 127px; right: 0; left: auto;}
 
             .num33 { top: 179px; left: 0; }
             .num34 { top: 179px; left: 21px; }
@@ -141,7 +142,7 @@
             .num37 { top: 179px; left: 179px; }
             .num38 { top: 179px; left: 233px; }
             .num39 { top: 177px; left: 285px; }
-            .num40 { top: 181px; left: 338px; }
+            .num40 { top: 181px; right: 0; left: auto;}
 
             .num41 { top: 231px; left: 0; }
             .num42 { top: 233px; left: 21px; }
@@ -150,16 +151,16 @@
             .num45 { top: 232px; left: 179px; }
             .num46 { top: 232px; left: 233px; }
             .num47 { top: 232px; left: 284px; }
-            .num48 { top: 236px; left: 338px; }
+            .num48 { top: 234px; right: 0; left: auto;}
 
-            .num49 { top: 285px; left: 0; }
-            .num50 { top: 286px; left: 21px; }
-            .num51 { top: 286px; left: 73px; }
-            .num52 { top: 286px; left: 127px; }
-            .num53 { top: 286px; left: 179px; }
-            .num54 { top: 285px; left: 233px; }
-            .num55 { top: 285px; left: 285px; }
-            .num56 { top: 287px; left: 338px; }
+            .num49 { bottom: 0; top: auto; left: 0; }
+            .num50 { bottom: 0; top: auto; left: 21px; }
+            .num51 { bottom: 0; top: auto; left: 73px; }
+            .num52 { bottom: 0; top: auto; left: 127px; }
+            .num53 { bottom: 0; top: auto; left: 179px; }
+            .num54 { bottom: 0; top: auto; left: 233px; }
+            .num55 { bottom: 0; top: auto; left: 285px; }
+            .num56 { bottom: 0; top: auto; right: 0; left: auto;}
         }
 
     }

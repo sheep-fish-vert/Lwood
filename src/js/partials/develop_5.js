@@ -45,6 +45,25 @@ function clickOnLittleItemOnColorPalete() {
         headeButer($('.butter'),$('.menu-top'));
         fancyboxTop();
         clickOnLittleItemOnColorPalete();
+
+        $('.slider-descr').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            swipeToSlide:true,
+            responsive: [
+              
+                {
+                    breakpoint: 880,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+
+            ]
+        });
         $('.slider-top').slick({
             dots: true,
             infinite: true,
