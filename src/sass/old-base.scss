@@ -897,15 +897,19 @@ a[href]:hover, a[href]:active {
     cursor: pointer;
     transtion: all 0.5s;
     margin: 0 auto 50px;
-    min-height: 225px; }
+    min-height: 225px;
+    position: relative;}
 .slider-wrap .conteiner .content-slider .convert-slid .slider-item .single:hover {
     border: 2px solid #ffffff; }
 .slider-wrap .conteiner .content-slider .convert-slid .slider-item .single .convert-img {
-    margin-bottom: 38px;
+    margin-bottom: 12px;
     width: 100%; }
 .slider-wrap .conteiner .content-slider .convert-slid .slider-item .single .convert-img img {
     display: block;
     margin: 0 auto; }
+.slider-wrap .conteiner .content-slider .convert-slid .slider-item .single .descript {
+    position: absolute; bottom: 0; width: 100%; left: 0;
+}
 .slider-wrap .conteiner .content-slider .convert-slid .slider-item .single .descript p {
     font-size: 20px;
     font-family: "ProximaNova", sans-serif;

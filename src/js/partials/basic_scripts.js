@@ -42,10 +42,11 @@ function oneHeightItems2(){
 
     function oneHeight(block){
         var height=0;
+
         block.removeAttr('style');
         block.each(function(){
-            if($(this).height()>height){
-                height=$(this).height();
+            if(($(this).height()+$(this).find('.descript').height())>height){
+                height=$(this).height()+$(this).find('.descript').height();
             }
         });
         block.css('height', height+20);
