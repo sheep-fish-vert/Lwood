@@ -1477,10 +1477,6 @@ header {
 .how-it-works .how-it-works-item {
     max-width: 300px;
     width: 100%; }
-.how-it-works .how-it-works-item:first-child .txt {
-    padding-left: 26px; }
-.how-it-works .how-it-works-item:last-child .txt {
-    padding-left: 43px; }
 .how-it-works .qudro-pupter {
     max-width: 180px;
     width: 100%;
@@ -1540,7 +1536,7 @@ header {
     z-index: 200;
     position: relative; }
 .how-it-works .txt {
-    
+
     display: inline-block;
     text-align: center;
 }
