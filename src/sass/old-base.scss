@@ -1540,8 +1540,10 @@ header {
     z-index: 200;
     position: relative; }
 .how-it-works .txt {
-    text-align: left;
-    display: inline-block; }
+    
+    display: inline-block;
+    text-align: center;
+}
 .how-it-works .txt p {
     font: 300 16px/20px 'ProximaNova';
     color: #323232; }
